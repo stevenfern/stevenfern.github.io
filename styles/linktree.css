@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+
+    margin:0;
+    padding:0;
+    background-color: rgb(10,10,10);
+    color: rgb(240,240,240);
+
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:  'Quicksand', sans-serif;
+    
+    width:100vw ;
+}
+
+
+header{
+
+    width:95%;
+    max-width: 788px; /* prevent from getting too big */
+    display:flex;
+    justify-content: flex-end;
+    padding:12px;
+    margin-top:15px;
+}
+.share-btn{
+
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+
+     
+}
+
+.share-btn svg{
+
+    margin:6px;
+}
+
+.container{
+
+    width:90%;
+    max-width: 680px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tile{
+    width: 100%;
+    background-color: rgb(37,37,37);
+    margin:7px;
+    border-radius: 17px;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(240,240,240);
+}
+
+.img-container{
+
+    height:96px;
+    width:96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.img-container img{
+
+    height:100%;
+}
+
+.tile-share-btn{
+
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    margin:8px;
+    background-color: rgb(230,230,230);
+
+}
+.tile-share-btn svg {
+    margin: 6px;
+}
+
+.icon{
+
+    width: 44px;
+    height: 44px;
+
+}
+
+.icon svg{
+
+    margin:12px;
+}
+
+.tile:hover{
+    background-color: rgb(60,60,60);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4;
+    transform: scale(1.02);
+
+}
